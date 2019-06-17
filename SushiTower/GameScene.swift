@@ -45,6 +45,27 @@ class GameScene: SKScene {
         }
         
         print(mousePosition)
+        
+        
+        let CENTER = self.size.width/2
+        if(mousePosition.x < CENTER)
+        {
+            //if right side
+            //write the code to position the cat at 80%
+            cat.position = CGPoint(x:self.size.width*0.25, y:100)
+           // flipping cat
+            let leftHand = SKAction.scaleX(to: 1, duration: 0)
+            self.cat.run(leftHand)
+        }
+        else{
+            
+            //if left side
+            //write the code to position the cat at 25%
+             cat.position = CGPoint(x:self.size.width*0.80, y:100)
+            //flipping cat
+            let leftHand = SKAction.scaleX(to: -1, duration: 0)
+            self.cat.run(leftHand)
+        }
     }
     
 }
