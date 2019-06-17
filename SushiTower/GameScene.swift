@@ -14,6 +14,9 @@ class GameScene: SKScene {
     let cat = SKSpriteNode(imageNamed: "character1")
     let sushiBase = SKSpriteNode(imageNamed:"roll")
     
+    
+
+    
     override func didMove(to view: SKView) {
         // add background
         let background = SKSpriteNode(imageNamed: "background")
@@ -29,6 +32,17 @@ class GameScene: SKScene {
         // add base sushi pieces
         sushiBase.position = CGPoint(x:self.size.width*0.5, y: 100)
         addChild(sushiBase)
+        
+        let specialSushi = SKSpriteNode(imageNamed: "roll")
+         specialSushi.position = CGPoint(x:self.size.width*0.5, y: 500)
+        addChild(specialSushi)
+        
+        let chop = SKSpriteNode(imageNamed: "chopstick")
+        chop.position.x = -100
+        //adding child to another object (now the position will be relative to the parent object
+        specialSushi.addChild(chop)
+        
+        
     }
     
     
