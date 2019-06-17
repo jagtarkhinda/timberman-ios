@@ -14,6 +14,8 @@
 		0571021B2215F1400064C3E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0571021A2215F1400064C3E1 /* Assets.xcassets */; };
 		0571021E2215F1400064C3E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0571021C2215F1400064C3E1 /* LaunchScreen.storyboard */; };
 		05710228221936ED0064C3E1 /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05710227221936ED0064C3E1 /* SushiPiece.swift */; };
+		9BC7C34D22B7DBE5008DFDE1 /* MyScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BC7C34C22B7DBE5008DFDE1 /* MyScene.sks */; };
+		9BC7C34F22B7DC63008DFDE1 /* Sushi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7C34E22B7DC63008DFDE1 /* Sushi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0571021D2215F1400064C3E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0571021F2215F1400064C3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05710227221936ED0064C3E1 /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+		9BC7C34C22B7DBE5008DFDE1 /* MyScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyScene.sks; sourceTree = "<group>"; };
+		9BC7C34E22B7DC63008DFDE1 /* Sushi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sushi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				0571021A2215F1400064C3E1 /* Assets.xcassets */,
 				0571021C2215F1400064C3E1 /* LaunchScreen.storyboard */,
 				0571021F2215F1400064C3E1 /* Info.plist */,
+				9BC7C34C22B7DBE5008DFDE1 /* MyScene.sks */,
+				9BC7C34E22B7DC63008DFDE1 /* Sushi.swift */,
 			);
 			path = SushiTower;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			files = (
 				057102192215F1400064C3E1 /* Main.storyboard in Resources */,
 				0571021B2215F1400064C3E1 /* Assets.xcassets in Resources */,
+				9BC7C34D22B7DBE5008DFDE1 /* MyScene.sks in Resources */,
 				0571021E2215F1400064C3E1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,6 +152,7 @@
 				057102142215F1400064C3E1 /* GameScene.swift in Sources */,
 				05710228221936ED0064C3E1 /* SushiPiece.swift in Sources */,
 				057102162215F1400064C3E1 /* GameViewController.swift in Sources */,
+				9BC7C34F22B7DC63008DFDE1 /* Sushi.swift in Sources */,
 				0571020E2215F1400064C3E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

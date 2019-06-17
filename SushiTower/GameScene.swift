@@ -48,6 +48,7 @@ class GameScene: SKScene {
         
         
         let CENTER = self.size.width/2
+        
         if(mousePosition.x < CENTER)
         {
             //if right side
